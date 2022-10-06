@@ -12,6 +12,8 @@ import sun.util.logging.PlatformLogger.Level;
 
 
 
+
+
  
 public class REGISTRO extends javax.swing.JFrame {
    Connection con = null;
@@ -263,8 +265,7 @@ if (c< '0' || c>'9') evt.consume();
     }//GEN-LAST:event_txt_passnewKeyTyped
 
     private void txt_nombres3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_nombres3ActionPerformed
-        char c = evt.getkeychar();
-    if((c<'a' || c>'z') && (c<'A' || c>'Z') && (c<' ' || c>' ')) evt.consume();
+        
     }//GEN-LAST:event_txt_nombres3ActionPerformed
 
  
